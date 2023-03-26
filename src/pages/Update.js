@@ -22,7 +22,7 @@ function Edit() {
     setInput({...input,[name]:value})
   }
    const edituser=async(e)=>{
-    window.alert("Data Updated Successfully")
+    use("/")
     await axios.put(`https://crudappaplicvation.onrender.com/${id}`,input)
    }
    
